@@ -48,5 +48,6 @@ $(window).on('resize', function() {
   } else {
     $('.main_side').show();
     $('.chat_side').show();
+    $('.back_chat').hide();
   }
 });
