@@ -50,6 +50,7 @@ li>.dropdown-item:hover {
 
 .message, .menu, .search-icon, .attackment {
   height: 100%;
+  margin-top: 1.4vh;
   padding: 1vw;
   width: auto;
   color: aqua
