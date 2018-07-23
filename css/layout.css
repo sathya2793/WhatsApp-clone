@@ -1,0 +1,208 @@
+:root {
+  font-size: 16px;
+}
+
+html, body, div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page, .app, .main_side, .chat_side, .main, .profile {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100%
+}
+
+/* main page */
+
+.main {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  display: block;
+}
+
+.bar {
+  background-color: rgb(44, 44, 44);
+  height: 10%
+}
+
+nav img {
+  cursor: pointer;
+  height: 100%;
+}
+
+li>.dropdown-menu {
+  background-color: rgb(44, 44, 44)
+}
+
+li>.dropdown-item:hover {
+  background-color: rgb(36, 72, 50)
+}
+
+.search_box {
+  color: aqua
+}
+
+.message, .menu, .search-icon, .attackment {
+  height: 100%;
+  padding: 1vw;
+  width: auto;
+  color: aqua
+}
+
+.reply_emojis, .reply_recording, .reply_send {
+  padding: .2vw;
+  width: auto;
+  color: aqua
+}
+
+.searchbar_inner {
+  padding: 1vw !important;
+  margin: 0 !important;
+  height: 10%;
+  background-color: rgb(44, 44, 44)
+}
+
+.menu_list {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 80%;
+  overflow-y: scroll;
+  background-color: rgb(44, 44, 44)
+}
+
+.menu_row {
+  height: 15%;
+  margin: 0 !important;
+  cursor: pointer
+}
+
+.menu_row:hover {
+  background-color: rgb(36, 72, 50)
+}
+
+/* profile page */
+
+.profile {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  top: -100%;
+  left: -100%;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.profile_bar {
+  height: 20%;
+  background-color: rgb(44, 44, 44)
+}
+
+.profile_header {
+  padding: 0 2vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between
+}
+
+.back_main {
+  font-size: 3rem;
+}
+
+/* scroll */
+.scroll {
+  overflow-y: scroll
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 3px;
+  background: #fff
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: aqua;
+}
+
+.profile_pic {
+  height: 35%;
+  background-color: rgb(34, 34, 34);
+  overflow: hidden
+}
+
+.picture {
+  width: 50%
+}
+
+.profile_name {
+  height: 16%;
+  padding: 1vw;
+  background-color: rgb(44, 44, 44);
+}
+
+.profile_name_title, .profile_about_title h5 {
+  color: teal
+}
+
+.profile_name_desc, .profile_about_desc {
+  color: aqua
+}
+
+.profile_status {
+  margin: 0 !important;
+  height: 15%;
+  background-color: rgb(34, 34, 34);
+  color: #fff
+}
+
+.profile_about_me {
+  padding: 1vw;
+  background-color: rgb(44, 44, 44);
+  color: black;
+  height: 65vh
+}
+
+/* chat side */
+.chatlogs {
+  padding: 2vw;
+  width: 100%;
+  height: 80%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: rgb(34, 34, 34)
+}
+
+.chat {
+  width: auto;
+  margin: .5vw;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  padding: .5vw;
+}
+
+.replies {
+  background: #1adda4;
+  float: left;
+}
+
+.sent {
+  background: #1ddced;
+  float: right;
+}
+
+/* sending msg */
+.reply {
+  height: 10%;
+  background-color: rgb(44, 44, 44);
+}
