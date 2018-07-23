@@ -97,6 +97,7 @@ li>.dropdown-item:hover {
   left: -100%;
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
+  background-color: rgb(34, 34, 34);
 }
 
 .profile_bar {
